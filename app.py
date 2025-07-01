@@ -52,7 +52,7 @@ nav_option = st.session_state.page
 
 # ---------- CONTENT FUNCTIONS ----------
 def show_profile():
-    image = Image.open("assets/profile.jpeg")
+    image = Image.open("profile.jpeg")
     col1, col2 = st.columns([1, 2])
     with col1:
         st.image(image, width=120)
