@@ -2,7 +2,7 @@ import streamlit as st
 from PIL import Image
 
 # ---------- CONFIG ----------
-st.set_page_config(page_title="Portofolio | Dzakiyuddin", layout="wide")
+st.set_page_config(page_title="Portfolio | Dzakiyuddin", layout="wide")
 
 # ---------- CUSTOM CSS ----------
 st.markdown("""
